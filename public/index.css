@@ -42,7 +42,33 @@ nav ul li a:hover {
   background-color: #fff;
   color: #333;
 }
-/* Write your CSS code here for Banner styling */
+
+#banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.8) 120%
+    ),
+    url(images/image1.jpg);
+  background-color: rgba(13, 19, 33, 0);
+  background-size: cover;
+  background-position: center;
+  color: #0b0c10;
+  padding: 300px;
+  text-align: center;
+}
+
+#banner h2 {
+  font-size: 56px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+#banner p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #dc3545;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .cta {
   background-color: #dc3545;
   color: #fff;
@@ -52,8 +78,61 @@ nav ul li a:hover {
   display: inline-block;
   opacity: 1;
 }
-/* Write your CSS code here for Cause section and About section Styling */
 
+#about {
+  background-color: #f6e4e4;
+  color: #060606fa;
+  padding: 70px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 46px;
+  color: #b51a2a;
+  padding: 35px;
+}
+#about p {
+  text-align: justify;
+  padding: 0px 100px 30px 100px;
+}
+
+#causes {
+  background-color: #f9f6f6;
+  padding: 4rem 0;
+  text-align: center;
+}
+#causes h2 {
+  font-size: 46px;
+  padding: 30px;
+  color: #b51a2a;
+}
+
+.cause {
+  display: inline-block;
+  width: 300px;
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: white;
+}
+
+.cause-icon {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.cause h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: #b51a2a;
+}
+
+.cause p {
+  font-size: 1rem;
+  color: #666;
+  text-align: left;
+}
 #contact form {
   max-width: 400px;
   margin: 0 auto;
